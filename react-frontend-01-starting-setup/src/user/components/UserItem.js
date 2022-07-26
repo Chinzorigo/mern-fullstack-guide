@@ -9,7 +9,7 @@ import Avatar from '../../shared/components/UIElements/Avatar';
 
 const UserItem = props => {
      return (
-        <li className="user-item">
+        <li className="user-item center">
             <Card className="user-item__content">
                 <Link to={`/${props.id}`}>
                 <div className="user-item__image">
